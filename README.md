@@ -5,6 +5,12 @@ This simple JavaScript snippet is designed for viewers who want to remove the "X
 ## Why Remove the X-ray Overlay?
 The X-ray feature on Amazon Video provides actor biographies, trivia, and other information as overlays on videos. While some might find this feature enriching, others might find it distracting. This script offers a way to watch videos without these interruptions.
 
+## Example Results
+
+| Before      | After       |
+|-------------|-------------|
+| ![image](https://github.com/grok/amazon-video-hacks/assets/495761/4587a710-30b8-4d4d-a7d0-95c3d9c03317) | ![image](https://github.com/grok/amazon-video-hacks/assets/495761/ba600d70-1998-4778-8de5-ab97a5a41af5) |
+
 ## How to Use
 To use this snippet, you need to access the developer tools in your web browser. Here's a quick guide on how to do it:
 
@@ -27,6 +33,7 @@ function removeElementsByClass(className) {
   });
 }
 
+// Immediately runs the code defined above.
 removeElementsByClass('xrayQuickView');
 ```
 
